@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="search_toolbar_view_height">60dp</dimen>
+    <dimen name="profile_pic_size">100dp</dimen>
+    <dimen name="illustration_dimens">250dp</dimen>
+    <dimen name="project_map_height">400dp</dimen>
+    <dimen name="upload_image_height">400dp</dimen>
+    <dimen name="drainage_status_height">300dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="book_cover_height">450dp</dimen>
+</resources>

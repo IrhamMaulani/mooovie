@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.shiinasoftware.mooovie.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_genreMovieFragment"
+            app:destination="@id/genreMovieFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genreMovieFragment"
+        android:name="com.shiinasoftware.mooovie.ui.genremovie.GenreMovieFragment"
+        android:label="GenreMovieFragment">
+        <argument
+            android:name="genre"
+            app:argType="com.shiinasoftware.mooovie.models.Genre" />
+        <action
+            android:id="@+id/action_genreMovieFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.shiinasoftware.mooovie.ui.movie.MovieFragment"
+        android:label="MovieFragment" >
+        <argument
+            android:name="movieId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_movieFragment_to_genreMovieFragment"
+            app:destination="@id/genreMovieFragment" />
+    </fragment>
+</navigation>

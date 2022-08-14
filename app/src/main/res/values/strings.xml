@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mooovie</string>
+    <string name="what_movie_you_watch_today">What movie you watch today?</string>
+    <string name="movie_illustration">Movie Illustration</string>
+    <string name="genre">Genre</string>
+    <string name="see_all">See All</string>
+    <string name="failed_to_load_data">Failed to load data</string>
+    <string name="home">Home</string>
+    <string name="halo_sinefil">Halo, Sinefil</string>
+    <string name="movie_poster">movie poster</string>
+    <string name="list_movie">List Movie</string>
+    <string name="btn_back">Button Back</string>
+    <string name="overview">Overview</string>
+    <string name="detail">Detail</string>
+    <string name="reviews">Reviews</string>
+    <string name="trailer">Trailer</string>
+</resources>

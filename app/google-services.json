@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "933003462432",
+    "project_id": "moooviee-19fd6",
+    "storage_bucket": "moooviee-19fd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933003462432:android:6acf448f39606bedf6f945",
+        "android_client_info": {
+          "package_name": "com.shiinasoftware.mooovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933003462432-nr0sci5tccfjtg5gar624jldq1g9l3dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shiinasoftware.mooovie",
+            "certificate_hash": "746cbf4c8811f816be603f8d7dca5a9c25bc8fb9"
+          }
+        },
+        {
+          "client_id": "933003462432-1uudqm61mnkorhhqpjk3cuppqsk35m2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN-yHL7Mx1zM6zQJFwfjkS6qZtK-h0nPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933003462432-1uudqm61mnkorhhqpjk3cuppqsk35m2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

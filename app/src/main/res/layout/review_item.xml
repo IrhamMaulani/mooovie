@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_order_component"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_user"
+        app:layout_constraintStart_toEndOf="@+id/iv_user"
+        app:layout_constraintTop_toTopOf="@+id/iv_user"
+        tools:text="garethmb" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:maxLength="280"
+        android:maxLines="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_user"
+        tools:text="he latest film in the Predator film series has arrived and the first
+under Disney ownership since their purchase of 20th Century Fox. “Prey”
+takes a look back in order to move the franchise forward and it does
+this by setting in amongst the Comanche community roughly three hundred
+years in the past.
+
+
+The film follows a young girl named Naru (Amber Midthunder) who looks to
+become a warrior but in a male-dominated setting, only her brother is
+relatively supportive of her ambition and talks about when she will face
+a trial which she must endure to show her worth.
+
+
+At the same time, a Predator has arrived and begins to hunt the local
+wildlife. Naru sees evidence of his work and tries to convince the tribe
+that the carnage they are finding is not the work of a bear or a
+mountain lion as the community believes.
+
+
+When the nature of the threat manifests itself, Naru must find the
+courage and skills to track and face the enemy who threatens to destroy
+her tribe.
+
+
+The film is directed by Dan Trachtenberg and he mixes a good amount of
+action along with a very interesting setting and characters to create an
+engaging tale.
+
+
+There are some moments that the FX was not as sharp as one might expect
+but the sequences with the Predator are filled with action and suspense
+and should make fans of the franchise very happy. The film at times does
+require some leaps of faith from the audience but in the end, “Prey” is
+a satisfying film that is superior to “The Predator” and rates as one of
+the stronger entries in the series and that the franchise is in good
+hands for the future.
+
+It will be interesting to see where the franchise goes next as there is lots of material for the franchise to explore, but for now, “Prey” is a refreshing take on the series and one fans should enjoy.
+
+4 stars out of 5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
